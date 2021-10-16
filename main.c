@@ -2,6 +2,7 @@
  * EX: TODO
  * DISC: TODO
  * REQ: GSL & OpenBLAS
+ * GIT
  */
 
 #include <stdio.h>
