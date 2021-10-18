@@ -27,7 +27,7 @@ dan_math.o: dan_math.h
 $(OBJ): dan_math.h config.mk
 
 EX_8: $(OBJ)
-	$(CC) -o $@ $(OBJ) $(STLDFLAGS)
+	gcc -o $@ $(OBJ) $(STLDFLAGS)
 
 clean:
 	rm -f st $(OBJ) st-$(VERSION).tar.gz

@@ -14,7 +14,7 @@ PKG_CONFIG = pkg-config
 
 # includes and libs
 INCS = `$(PKG_CONFIG) --cflags gsl` \
-       `$(PKG_CONFIG) --cflags blas`\
+       `$(PKG_CONFIG) --cflags openblas`\
        `$(PKG_CONFIG) --cflags plplot`
 LIBS = `$(PKG_CONFIG) --libs gsl` \
        `$(PKG_CONFIG) --libs blas`\
