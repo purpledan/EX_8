@@ -74,7 +74,7 @@ int main( int argc, char *argv[] ) {
         sols->data[i] = y[1];
         //printf("t: %G; sol: %G\n", time->data[i], sols->data[i]);
     }
-    /*
+    
     plsdev("pdfcairo");
     plsfnam("Output1.pdf");
     //plspal0( "cmap0_alternate.pal" );
@@ -84,7 +84,7 @@ int main( int argc, char *argv[] ) {
     pllab( "t", "sol", "" );
     plline(NMAX, time->data, sols->data);
     plend();
-    */
+    
     clock_t toc = clock();          // End time for simple benchmark
     printf("Elapsed time: %fms\n", (double)(toc - tic)/CLOCKS_PER_SEC * 1000);
 
