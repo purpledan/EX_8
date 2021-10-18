@@ -19,7 +19,7 @@ options:
 #	cp config.def.h config.h
 
 .c.o:
-	$(CC) $(STCFLAGS) -c $<
+	gcc $(STCFLAGS) -c $<
 
 main.o: dan_math.h
 dan_math.o: dan_math.h
