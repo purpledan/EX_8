@@ -17,7 +17,7 @@ INCS = `$(PKG_CONFIG) --cflags gsl` \
        `$(PKG_CONFIG) --cflags openblas`\
        `$(PKG_CONFIG) --cflags plplot`
 LIBS = `$(PKG_CONFIG) --libs gsl` \
-       `$(PKG_CONFIG) --libs blas`\
+       `$(PKG_CONFIG) --libs openblas`\
        `$(PKG_CONFIG) --libs plplot`
 
 # flags
